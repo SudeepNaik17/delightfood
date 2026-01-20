@@ -12,7 +12,7 @@ const app = express();
 // 1. DYNAMIC CORS: Replace with your actual Render frontend URL later
 const allowedOrigins = [
     "http://localhost:5173", // For local development
-    "https://delight-food.onrender.com" // Your Render frontend link
+    "https://delight-food-qnk5.onrender.com" // Your Render frontend link
 ];
 
 app.use(cors({
