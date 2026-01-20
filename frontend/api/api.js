@@ -5,7 +5,7 @@
  */
 const BASE_URL = window.location.hostname === "localhost" 
   ? "http://localhost:5000/api" 
-  : "https://delightfood.onrender.com/api"; 
+  : "https://delightfood-r9vx.onrender.com/api"; 
 
 /* ================= AUTH ================= */
 

@@ -8,7 +8,7 @@ import Cookies from "js-cookie"; // Ensure you've run: npm install js-cookie
  */
 const API = window.location.hostname === "localhost" 
   ? "http://localhost:5000/api" 
-  : "https://your-backend-service-name.onrender.com/api"; // REPLACE with your actual Render Backend URL
+  : "https://delightfood-r9vx.onrender.com/api"; // REPLACE with your actual Render Backend URL
 
 export default function AuthPage() {
   const navigate = useNavigate();

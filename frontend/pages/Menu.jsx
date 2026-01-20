@@ -6,7 +6,7 @@ import { fetchMenu, placeOrder } from "../api/api";
 // --- RENDER CONFIGURATION ---
 const API_URL = window.location.hostname === "localhost" 
   ? "http://localhost:5000" 
-  : "https://your-backend-app.onrender.com"; // REPLACE with your actual Render backend URL
+  : "https://delightfood-r9vx.onrender.com"; // REPLACE with your actual Render backend URL
 
 const imageMap = {
   "Veg Burger": "https://images.unsplash.com/photo-1550547660-d9450f859349",
